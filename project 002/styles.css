@@ -1,0 +1,52 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.images {
+    width: 220px;
+    height: 220px;
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6 {
+    width: 220px;
+    height: 294px;
+}
+.image1:hover {
+    border: 1px solid #b4968dc9;
+}
+
+.image2:hover {
+    border: 1px solid #b4968dc9;
+}
+
+.image3:hover {
+    border: 1px solid #b4968dc9;
+}
+
+.image4:hover {
+    border: 1px solid #b4968dc9;
+}
+
+.image5:hover {
+    border: 1px solid #b4968dc9;
+}
+
+.image6:hover {
+    border: 1px solid #b4968dc9;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #b4968dc9;
+    padding: 10px;
+    border-top: none;
+}

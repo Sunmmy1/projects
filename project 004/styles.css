@@ -1,0 +1,607 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto' sans-serif;
+}
+
+.header {
+    background: #202138;
+    height: 100px;
+    text-align: center;
+}
+
+#logo {
+    width: 200px;
+    padding: 20px;
+    position: absolute;
+    left: 90px;
+    color: #fff;
+    top: 15px;
+}
+
+/* navbar */
+.nav-bar {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    left: 180px;
+    top: 20px;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+}
+
+.nav-bar ul a {
+    color: #fff;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    padding: 43px 35px;
+}
+
+.nav-bar ul li a:hover {
+    color: white;
+    background: #252641;
+    width: 100%;
+}
+
+.nav-bar ul li .drop {
+    position: relative;
+}
+
+.nav-bar ul .drop .dropdown {
+    display: none;
+    z-index: 2;
+}
+
+.nav-bar ul .drop .dropdown li a {
+    color: #fff;
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: unset;
+    padding: 15px;
+}
+
+.nav-bar ul .drop .dropdown li #last {
+    border-bottom: none;
+}
+
+.nav-bar ul .drop:hover .dropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: unset;
+    top: 80px;
+    background: #252641;
+}
+
+.nav-bar ul .drop .dropdown li a:hover {
+    background: #21c2a9;
+}
+
+/* header-icon */
+.header-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 250px;
+    float: right;
+    bottom: 30px;
+    color: #fff;
+}
+
+.header-icon .icon {
+    padding: 15px;
+}
+
+.winrar {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 12px;
+    left: 15px;
+}
+
+.winrar img {
+    width: 100%;
+    height: 100%;
+}
+
+/* wallpaper */
+.wallpaper {
+    width: 100%;
+    height: 80vh;
+    background-image: url('img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wallpaper div {
+    text-align: center;
+    position: relative;
+    top: 220px;
+}
+
+.wallpaper div p {
+    color: #fff;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+/* news */
+.news {
+    width: 100%;
+    height: 120vh;
+    background: #252641;
+}
+
+.news2 {
+    width: 50%;
+    position: relative;
+    left: 200px;
+    bottom: 70px;
+}
+
+.news2  #head-text1{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    bottom: 12px;
+}
+
+.news-span1 {
+    color: #fff;
+    position: relative;
+    top: 45px;
+    left: 15px;
+    padding: 15px;
+    background: #21c2a9;
+    border-radius: 16px;
+    text-transform: uppercase;
+}
+
+/* news-ruiner */
+.ruiner {
+    width: 700px;
+    height: 250px;
+    position: relative;
+    bottom: 15px;
+}
+
+.ruiner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ruiner .ruiner-text {
+    text-align: center;
+    padding: 35px;
+    position: relative;
+    bottom: 5px;
+    border-top: none;
+    background: #fff;
+}
+
+.ruiner .ruiner-text p:last-of-type {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+/* news -- news3 -- evil-within -- star-citizen*/
+.news3 {
+    position: relative;
+    top: 170px;
+    display: flex;
+    gap: 45px;
+}
+
+.news-span2, .news-span3 {
+    color: #fff;
+    position: relative;
+    top: 45px;
+    left: 15px;
+    padding: 15px;
+    background: #21c2a9;
+    border-radius: 16px;
+    text-transform: uppercase;
+}
+
+.evil-within, .star-citizen {
+    width: 330px;
+    height: 250px;
+}
+
+.evil-within img, .star-citizen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.evil-within .evil-within-text, .star-citizen .star-citizen-text {
+    text-align: center;
+    padding: 35px;
+    position: relative;
+    bottom: 3px;
+    border-top: none;
+    background: #fff;
+}
+
+.evil-within-text p:last-of-type {
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.star-citizen-text p:last-of-type {
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+/* list */
+.head-text3 {
+    color: #21c2a9;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+.head-text4 {
+    float: right;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    background: #21c2a9;
+    padding: 12px;
+    border-radius: 12px;
+}
+.list {
+    width: 400px;
+    height: 820px;
+    float: right;
+    position: relative;
+    bottom: 1015px;
+    color: #fff;
+    right: 230px;
+}
+
+.list ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #1f2036;
+
+}
+
+.list ul li {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: #202138;
+    border-bottom: 1px solid #000;
+}
+
+.list ul li:hover {
+    background: #21c2a9;
+}
+
+.list ul li span {
+    position: relative;
+    left: 100px;
+    font-weight: bold;
+}
+
+.list ul li:last-of-type {
+    border-bottom: none;
+    padding-bottom: 50px;
+    pointer-events: none;
+}
+
+.list ul li p {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    right: 60px;
+    float: right;
+    color: #21c2a9;
+}
+
+.list ul li p .fa-solid {
+    position: relative;
+    left: 20px;
+    top: 2px;
+}
+
+/* list-side */
+
+ .list-side {
+    width: 20px;
+    height: 100%;
+    float: right;
+    position: relative;
+    bottom: 940px;
+    color:#3d3e5d;
+    right: 190px;
+}
+
+.list-side ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.list-side ul li{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* top: 20px; */
+    padding: 12px;
+    font-weight: bold;
+}
+
+/* list--span--style */
+#span1 {
+    position: relative;
+    left: 3px;
+}
+
+#span2, #span3 {
+    position: relative;
+    left: 7px;
+}
+
+/* coming-up */
+.coming-up {
+    width: 100%;
+    height: 50vh;
+    background: #252641;
+    position: relative;
+    bottom: 100px;
+    
+}
+
+.coming-up .coming-up2 {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    position: relative;
+    left: 200px;
+}
+
+.coming-up .coming-up2 .game1 {
+    width: 330px;
+    height: 250px;  
+}
+
+.coming-up2 .game1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.game1 .game-text1 {
+    text-align: center;
+    padding: 35px;
+    position: relative;
+    bottom: 3px;
+    border-top: none;
+    background: #fff;
+    height: 150px;
+} 
+
+.coming-up .coming-up2 .game1 .game-text1 p:last-of-type {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* videos */
+.videos {
+    width: 100%;
+    height: 70vh;
+    background: #1b1c2e;
+    position: relative;
+    bottom: 100px;
+    z-index: -1;
+}
+
+.videos .videos2 {
+    position: relative;
+    top: 140px;
+    left: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.videos .videos2 .video-container .video-header {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.videos .videos2 .video-container {
+    width: 330px;
+    height: 250px;
+}
+
+.videos .videos2 .video-container2 {
+    position: relative;
+    top: 28px;
+}
+
+.videos .videos2 .video-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.videos .videos2 .video-container .video-text1 .fa-solid{
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    left: 165px;
+    bottom: 130px;
+}
+
+.videos .videos2 .video-container .video-text1 p {
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+    color: #616276;
+    font-weight: bold;
+}
+
+.videos .videos2 .video-container .video-text1 p:last-of-type {
+    font-size: 20px;
+    color: #e1e1e2;
+}
+
+.videos .videos2 .video-container .video-header2 {
+    font-size: 25px;
+    color: #21c2a9;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+}
+
+/* reviews */
+.reviews {
+    width: 100%;
+    height: 120vh;
+    background: #202138;
+    position: relative;
+    bottom: 100px;
+}
+
+.reviews-text {
+    color: #fff;
+    position: relative;
+    bottom: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+.reviews ul {
+    position: relative;
+    width: 330px;
+    left: 200px;
+    top: 90px;
+    list-style-type: none;
+}
+
+.reviews ul li {
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.reviews ul li span {
+    position: relative;
+    bottom: 22px;
+    right: 20px;
+    float: left;
+    font-size: 28px;
+}
+
+.span-col1 {
+    color: #21c2a9;
+}
+
+.span-col {
+    color: #6c6d83;
+}
+
+.list-col1 {
+    background: #1b1c2e;
+    border: 2px solid  #1b1c2e;
+}
+
+.list-col2 {
+    background: #202138;
+    border: 2px solid #202138;
+}
+
+.reviews ul li .fa-solid {
+    color: #616276;
+    padding: 3px;
+}
+
+/* game-review */
+.game-review {
+    width: 720px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 900px;
+    left: 580px;
+}
+
+.game-review .game-container {
+    display: flex;
+}
+.game-review .game-container div {
+    width: 350px;
+    height: 250px;
+}
+
+.game-review .game-container div img {
+    width: 100%;
+    height: 100%;
+}
+
+.game-review-text {
+    line-height: 1.5;
+    padding: 20px;
+    background: #fff;
+}
+
+.game-review-text p{
+    color: #abacb7;
+}
+
+.game-review-text span {
+    position: absolute;
+    padding: 10px;
+    background: #21c2a9;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.game-review-text p:first-of-type, h2{
+    position: relative;
+    left: 50px;
+}

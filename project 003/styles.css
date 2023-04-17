@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    width: 100%; 
+    height: 100vh;
+    /* overflow: scroll; */
+}
+
+/* head */
+.head {
+    background-image: url('img/pexels-transtudios-photography-&-video-3684519.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%; 
+    height: 100vh;
+}
+
+.logo {
+    width: 120px;
+    height: 140px;
+    position: relative;
+    left: 70px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    position: relative;
+    bottom: 90px;
+    left: 160px;
+    border-right: 2px solid;
+    /* border: 1px solid; */
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.nav-bar ul li a:hover {
+    color: #ee9194;
+    border-bottom: 1px solid #ee9194;
+    transition: 0.7s;
+}
+
+.icon {
+    width: 200px;
+    float: right;
+    position: relative;
+    bottom: 116px;
+    right: 10px;
+    overflow: hidden;
+    /* border: 1px solid; */
+}
+
+.icon .fa-brands {
+    padding: 10px;
+    color: #fff;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    /* border: 1px solid; */
+    padding: 20px;
+    margin: 50px;
+    line-height: 1.5;
+    /* color: #e2d9d9; */
+    color: black;
+}
+
+.header-text .p1 {
+    font-size: 40px;
+    letter-spacing: 25px;
+}
+
+.header-text .p2 {
+    font-size: 22px;
+    margin-top: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+#header-btn {
+    position: relative;
+    top: 100px;
+    padding: 20px 180px 20px 15px;
+    background: none;
+    border: 1px solid;
+}
+
+#header-btn a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+}
+
+#header-btn i {
+    position: relative;
+    left: 150px;
+    font-size: 23px;
+    color: #000000;
+}
+
+/* evening */
+
+.evening {
+    width: 100%;
+    height: 410vh;
+    background: #000000;
+    overflow: hidden;
+}
+
+.evening-head {
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+
+.evening-text {
+    width: 30%;
+    position: relative;
+    float: right;
+    color: #fff;
+    top: 120px;
+    right: 320px;
+    line-height: 1.7;
+}
+
+.evening-text h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: #ee9194;
+}
+
+.evening-text button {
+    position: relative;
+    top: 50px;
+    padding: 20px 180px 20px 15px;
+    background: none;
+    border: 1px solid white;
+}
+
+.evening-text button a {
+    text-decoration: none;
+    color: white;
+}
+
+.evening-text button i {
+    color: #fff;
+    position: relative;
+    left: 150px;
+    font-size: 22px;
+}
+
+.evening-img1 {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+
+.evening-img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.evening-img1 p {
+    width: 80%;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    bottom: 225px;
+    left: 38px;
+    letter-spacing: 10px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+.evening-img4 {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: 790px;
+    top: 575px;
+}
+
+.evening-img4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.evening-img4 P {
+    width: 70%;
+    text-align: center;
+    position: relative;
+    bottom: 158px;
+    left: 70px;
+    letter-spacing: 8px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 0.5px 0.5px #000000;
+}
+
+/* wedding */
+.wedding-text {
+    width: 30%;
+    position: relative;
+    color: #fff;
+    top: 200px;
+    left: 230px;
+    line-height: 1.7;
+}
+
+.wedding-text h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: #ee9194;
+}
+
+.wedding-text button {
+    position: relative;
+    top: 50px;
+    padding: 20px 180px 20px 15px;
+    background: none;
+    border: 1px solid white;
+}
+
+.wedding-text button a {
+    text-decoration: none;
+    color: white;
+}
+
+.wedding-text button i {
+    color: #fff;
+    position: relative;
+    left: 150px;
+    font-size: 22px;
+}
+
+/* gala */
+
+.gala-img2 {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 230px;
+    top: 335px;
+}
+
+.gala-img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gala-text {
+    width: 30%;
+    position: relative;
+    color: #fff;
+    float: right;
+    bottom: 80px;
+    right: 230px;
+    line-height: 1.7;
+}
+
+.gala-text h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: #ee9194;
+}
+
+.gala-text button {
+    position: relative;
+    top: 50px;
+    padding: 20px 180px 20px 15px;
+    background: none;
+    border: 1px solid white;
+}
+
+.gala-text button a {
+    text-decoration: none;
+    color: white;
+}
+
+.gala-text button i {
+    color: #fff;
+    position: relative;
+    left: 150px;
+    font-size: 22px;
+}
+
+/* accessories */
+.accessories-img3 {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 880px;
+    top: 355px;
+}
+
+.accessories-img3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.accessories-text {
+    width: 30%;
+    position: relative;
+    color: #fff;
+    bottom: 40px;
+    left: 230px;
+    line-height: 1.7;
+}
+
+.accessories-text h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: #ee9194;
+}
+
+.accessories-text button {
+    position: relative;
+    top: 50px;
+    padding: 20px 180px 20px 15px;
+    background: none;
+    border: 1px solid white;
+}
+
+.accessories-text button a {
+    text-decoration: none;
+    color: white;
+}
+
+.accessories-text button i {
+    color: #fff;
+    position: relative;
+    left: 150px;
+    font-size: 22px;
+}
+
+/* boutiques */
+.boutiques-img {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 230px;
+    top: 90px;
+}
+
+.boutiques-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boutiques-text {
+    width: 30%;
+    position: relative;
+    color: #fff;
+    float: right;
+    bottom: 320px;
+    right: 230px;
+    line-height: 1.7;
+}
+
+.boutiques-text h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: #ee9194;
+}
+
+.boutiques-text button {
+    position: relative;
+    top: 50px;
+    padding: 20px 180px 20px 15px;
+    background: none;
+    border: 1px solid white;
+}
+
+.boutiques-text button a {
+    text-decoration: none;
+    color: white;
+}
+
+.boutiques-text button i {
+    color: #fff;
+    position: relative;
+    left: 150px;
+    font-size: 22px;
+}
+
+/* shows */
+.shows-img {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 880px;
+    top: 160px;
+}
+
+.shows-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shows-text {
+    width: 30%;
+    position: relative;
+    color: #fff;
+    bottom: 250px;
+    left: 230px;
+    line-height: 1.7;
+}
+
+.shows-text h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: #ee9194;
+}
+
+.shows-text button {
+    position: relative;
+    top: 50px;
+    padding: 20px 180px 20px 15px;
+    background: none;
+    border: 1px solid white;
+}
+
+.shows-text button a {
+    text-decoration: none;
+    color: white;
+}
+
+.shows-text button i {
+    color: #fff;
+    position: relative;
+    left: 150px;
+    font-size: 22px;
+}
+
+/* footer */
+footer {
+    font-size: 12px;
+    background: #292b2c;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-icon .fa-brands{
+    padding: 5px;
+    margin-top: 20px;
+}
